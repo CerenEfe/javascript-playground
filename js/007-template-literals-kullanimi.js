@@ -1,7 +1,7 @@
 // ********** Template Literals Kullanimi ********** 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
-let username = "hakan"
+let username = "ceren"
 const DOMAIN = "kodluyoruz.org"
 
 let email = username + "@" + DOMAIN
