@@ -5,7 +5,7 @@
 // yapilacak islem
 // }
 
-let users = ["Lorem", "Ipsum", "Dolor", ]
+// let users = ["Lorem", "Ipsum", "Dolor", ]
 
 // for (let index = 0; index < 10; index++) {
 //   console.log(index)
@@ -17,11 +17,21 @@ let users = ["Lorem", "Ipsum", "Dolor", ]
 //   console.log(index)
 // }
 
-const userListDOM = document.querySelector('#userList')
 
-for (index = 0; index < users.length; index++) {
-  const liDOM = document.createElement('li')
-  liDOM.innerHTML = users[index]
-  userListDOM.appendChild(liDOM)
+let users = ["Lorem", "Ipsum", "Dolor"]
+
+const userListDOM = document.querySelector("#userList")
+
+for (let index = 0; index < users.length; index++) {
+
+    // yeni li oluştur
+    const liDOM = document.createElement("li")
+
+    // dizideki elemanı li içine yaz
+    liDOM.innerHTML = users[index]
+
+    // li'yi ul içine ekle
+    userListDOM.appendChild(liDOM)
 }
+
 
